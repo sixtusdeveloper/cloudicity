@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
     <link rel="stylesheet" href="./CSS/utilities.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" cotent="Web based cloud hosting company for everyone" >
+    <meta
+      name="description"
+      cotent="Web based cloud hosting company for everyone"
+    />
     <title>Cloudify | Cloud hosting Docs</title>
     <script
       src="https://kit.fontawesome.com/7c5a9b010c.js"
@@ -15,21 +18,23 @@
   <body>
     <!-- Nav -->
     <div class="navbar">
-      <div class="container flex"><a href="index.php">
-        <h1 class="logo">
-          <img
-            src="./images/cloudicity-logo-1.png"
-            class="logo-image"
-            alt="An image of Logo"
-          />
-        </h1></a>
+      <div class="container flex">
+        <a href="index.html">
+          <h1 class="logo">
+            <img
+              src="./images/cloudicity-logo-1.png"
+              class="logo-image"
+              alt="An image of Logo"
+            />
+          </h1>
+        </a>
 
         <nav>
           <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="features.php">Features</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="docs.php" class="active">Docs</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="docs.html" class="active">Docs</a></li>
           </ul>
         </nav>
       </div>
@@ -45,7 +50,9 @@
             about this platform would be discused in this article.
           </p>
 
-          <button class="about_main_btn" onclick="fetch_user_url()">Read more</button>
+          <button class="about_main_btn" onclick="fetch_user_url()">
+            Read more
+          </button>
         </div>
         <img src="./images/cloud-img.png" alt="" />
       </div>
@@ -124,7 +131,67 @@
       </div>
     </section>
 
-   <?php include_once 'footer.php'; ?>
+    <!-- Footer -->
+    <footer class="footer py-1">
+      <div class="Flex-footer">
+        <div class="flex-center-items">
+          <a
+            href="https://github.com/sixtus-Developer"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/SixtusUshahemba"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+
+          <a
+            href="https://www.facebook.com/sixtusushrey"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/sixtusushrey/"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sixtusushrey/"
+            class="social-link"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+
+        <div class="logo-wrapper">
+          <img
+            src="images/cloudicity-logo-1.png"
+            class="footer-logo-img"
+            alt="An image of Logo"
+          />
+          <p class="white-color">
+            Copyright&copy; 2022 | Created by
+            <span style="color: #ff004f;">SixtusDev</span>
+            | All Rights Reserved |
+            <br />
+            Terms & Conditions
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <script src="./JS/main.js"></script>
   </body>
