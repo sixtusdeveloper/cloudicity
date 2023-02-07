@@ -1,6 +1,5 @@
 const redirect = document.querySelector('#about-more')
-let assoc_url =
-  'http://localhost/xampp/PHP-NEW-PROJECT/Cloud-Website/index.html'
+let assoc_url = 'index.html'
 
 function get_url(event) {
   event.preventDefault()
@@ -12,17 +11,17 @@ redirect.addEventListener('click', function (event) {
 })
 
 function set_user_url() {
-  window.location.href = 'index.php'
+  window.location.href = 'index.html'
 }
 
 function redirect_url_doc() {
-  window.location.href = 'docs.php'
+  window.location.href = 'docs.html'
 }
 
 function get_url_assoc() {
-  window.location.href = 'index.php'
+  window.location.href = 'index.html'
 }
 
 function contact_form() {
-  window.location.href = 'index.php'
+  window.location.href = 'index.html'
 }

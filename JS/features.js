@@ -14,5 +14,5 @@
 
 // Redirect user to about page after clicking the features page button
 function redirect_user_about() {
-  window.location.href = 'about.php'
+  window.location.href = 'about.html'
 }
