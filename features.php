@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/utilities.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" cotent="Web based cloud hosting company for everyone" >
+    <title>Cloudicity | Cloud hosting Features</title>
+    <script
+      src="https://kit.fontawesome.com/7c5a9b010c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Nav -->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo"><a href="index.php">
+          <img
+            src="./images/cloudicity-logo-1.png"
+            class="logo-image"
+            alt="An image of Logo"
+          /></a>
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="features.php" class="active">Features</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="docs.php">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Head -->
+    <section class="features-head bg-primary py-4">
+      <div class="container grid padding-bottom">
+        <div>
+          <h1 class="xl">Features</h1>
+          <p class="lead">
+            Check out the features of Cloudicity that separate us from the
+            competition
+          </p>
+        </div>
+        <img src="./images/server.png" alt="An image of a server" />
+      </div>
+    </section>
+
+    <section class="features-sub-head bg-light py-3">
+      <div class="container grid">
+        <div>
+          <h2 class="md">The Cloudicity Platform</h2>
+          <p>
+            The ultimate technical website where all is done simultaneously.
+            Free Advanced practicals and resources, real scenarios, live
+            interactive lectures and tutorials. The most useful, complex and
+            essential documentations and features, Advanced skill guide,
+            professional technical engineers and Developers. Where you don't
+            have to pay nothing before getting the knowledge you are look for.
+            Free Cetification and Recommendation, high level of exposure and Job
+            guarantee.
+          </p>
+
+          <button type="button" id="button-feature" onclick="redirect_user_about()"class="feature-btn">
+            Read more
+          </button>
+        </div>
+        <img src="./images/server2.png" alt="A server" />
+      </div>
+    </section>
+
+    <!-- Main -->
+    <section class="features-main">
+      <div class="container grid grid-3">
+        <div class="card flex justify-item">
+          <i class="fas fa-database fa-3x"></i>
+          <p>
+            When it comes to database administration you don't have to worry
+            about anything, all you need to do is to just hand over to us the
+            responsibility, task, and we will put business in your expected
+            direction. We've been managing and maintening databases, server for
+            ages with a positive reputation across the globe. Trust us to
+            provide you with the best solutions and services you need for the
+            growth of your business.
+          </p>
+        </div>
+        <div class="card flex justify-item">
+          <i class="fas fa-laptop-code fa-3x"></i>
+          <p>
+            Our Developers, well trained and equiped with modern and Advanced
+            technical skills. Talking about competence, you have nothing to
+            worry about, we've got all these covered. We recruit and train
+            professional and responsible Developers who wouldn't take any task
+            for granted. Our priorty is seeing your business florishing and in a
+            better height, that's when we know we've done something. Making sure
+            you get the best solution and services that can make a difference to
+            your business from us rather than any other service provider, that's
+            when we know we've completed our task.
+          </p>
+        </div>
+        <div class="card flex justify-item">
+          <i class="fas fa-upload fa-3x"></i>
+          <p>
+            Upload your projects, sites, and products and we'll take care of
+            that. That's why we're here and not just that, you would get
+            authentic and advanced solutions that can take your business to the
+            next level. Our unique offer has touched so much companies and
+            organisations. Giving us a try may be the best decision you've ever
+            made.
+          </p>
+        </div>
+        <div class="card flex justify-item">
+          <i class="fas fa-power-off fa-3x"></i>
+          <p>
+            Have total control over your business, very important. We all know
+            that security is one of the most challenging aspect when it comes to
+            digitalization in today's world. And that's why we've put in what it
+            takes to conquer this issue which most organisation couldn't. And
+            it's also the reason why we've stand till date, because of our
+            consistency and commitment. Though, we all know it's challenging
+            part but we've refused to giveup until
+            <b>Cyber Crime</b>
+            surrender is wiped out.
+          </p>
+        </div>
+        <div class="card flex justify-item">
+          <i class="fas fa-network-wired fa-3x"></i>
+          <p>
+            Connectivity could be so helpful and important as well but what
+            matters is the right one. Most service providers offer this service
+            but the question is are you getting stucked or are you having the
+            perfect experience using those services and products? If No, then,
+            you've alot to do and it will gets worst if relent or irresponsible.
+          </p>
+        </div>
+        <div class="card flex justify-item">
+          <i class="fas fa-server fa-3x"></i>
+          <p>
+            We have one of the most powerful, Advanced and complex servers.
+            Which means the work here isn't a hustle and it's the reason you
+            never ignore this opportunity. A click, your solutions are handled
+            with good hands and well mantained for the next task. Another thing
+            we value most is reputation, we believe a strong and positive
+            reputation is more than just a do and move out. That's why we're
+            still the top tech service providers till date.
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <?php include_once 'footer.php'; ?>
+
+    <script src="./JS/features.js"></script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="./CSS/utilities.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" cotent="Web based cloud hosting company for everyone" >
+  <title>Cloudicity | Cloud hosting Home</title>
+  <script src="https://kit.fontawesome.com/7c5a9b010c.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+  <!-- Nav -->
+  <div class="navbar">
+  <div class="container flex">
+    <h1 class="logo"><a href="#"><img src="./images/cloudicity-logo-1.png" class="logo-image" alt="An image of Logo"></a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.php" class="active">Home</a></li>
+        <li><a href="features.php">Features</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="docs.php">Docs</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+
+  <!-- Showcase -->
+  <section class="showcase margin-bottom">
+    <div class="container grid">
+      <div class="showcase-text vertical-margin">
+        <h1 class="demo-header">Easier Deployment.</h1>
+        <p>Deploy web applications of all kinds, from large scale enterprise APIs to static website for individuals. Fill out the form to try a Demo of our platform.</p>
+         <a href="features.php"class="btn btn-outline">Read More</a>
+      </div>
+      <div class="showcase-form card">
+        <h2 class="demo-header">Request a Demo.</h2>
+        <!-- Submit Form link from FormPree.com website https://formspree.io/f/xrgdlydo -->
+        <form action="proccess.php" method="post" id="form">
+          <div class="form-control">
+            <input type="text" class="name" placeholder="Name" id="name" name="name">
+           <p id="error-msg" class="error-msg"></p>
+          </div>
+
+          <div class="form-control">
+            <input type="email" class="email" placeholder="Email" id="email" name="email" >
+            <p id="error-msg" class="error-msg"></p>
+          </div>
+
+          <div class="form-control">
+            <input type="text" class="company" id="company" placeholder="Company" name="company">
+            <p id="error-msg" class="error-msg"></p>
+          </div>
+
+          <div class="form-control">
+          </div>
+          <input type="submit" value="Send" name="submit"class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats margin-top-y">
+    <div class="container">
+      <h3 class="stats-heading text-center">
+       Welcome to the best platform for building web applications of all types with modern architecture  and scaling.
+      </h3>
+      <div class="grid grid-3 text-center my-4">
+        <div>
+          <i class="fas fa-server fa-3x"></i>
+          <h3>10,345,768</h3>
+          <p class="text-dark">Deployments</p>
+        </div>
+        <div>
+          <i class="fas fa-upload fa-3x"></i>
+          <h3>987 TB</h3>
+          <p class="text-dark">Published</p>
+        </div>
+        <div>
+           <i class="fas fa-project-diagram fa-3x"></i>
+          <h3>2,786,345</h3>
+          <p class="text-dark">Projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLI -->
+  <section class="cli">
+    <div class="container grid">
+      <img src="./images/cli.png" alt="">
+      <div class="card">
+        <h3>Easy to use, cross platform CLI</h3>
+      </div>
+
+      <div class="card">
+        <h3>Deploy in just few seconds</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cloud -->
+  <section class="cloud bg-primary my-2 py-2">
+    <div class="container grid">
+      <div class="text-center">
+        <h2 class="lg resize-header">Cloud hosting platform.</h2>
+        <p class="lead my-1">Cloud hosting like you've never seen. Fast, efficient and scalable</p>
+        <a href="features.php"class="btn btn-dark">Read More</a>
+      </div>
+      <img src="./images/cloud.png" alt="">
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="languages">
+    <h2 class="md text-center my-2">
+      Supported Languages
+    </h2>
+    <div class="container flex">
+      <div class="card">
+        <h4>PYTHON</h4>
+        <img src="./images/logos/python.png" alt="An image of Python">
+      </div>
+      <div class="card">
+        <h4>PHP</h4>
+        <img src="./images/logos/php.png" alt="An image of PHP">
+      </div>
+      <div class="card">
+        <h4>NODE</h4>
+        <img src="./images/logos/node.png" alt="An image of Node">
+      </div>
+      <div class="card">
+        <h4>RUBY</h4>
+        <img src="./images/logos/ruby.png" alt="An image of Ruby">
+      </div>
+      <div class="card">
+        <h4>C#</h4>
+        <img src="./images/logos/csharp.png" alt="An image C#">
+      </div>
+      <div class="card">
+        <h4>CLOJURE</h4>
+        <img src="./images/logos/clojure.png" alt="An image Clojure">
+      </div>
+       <div class="card">
+        <h4>SCALAR</h4>
+        <img src="./images/logos/scala.png" alt="An image of card">
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <?php include_once 'footer.php'; ?>
+  <!-- loader  -->
+
+  <div class="loader-container">
+    <svg viewBox="25 25 50 50">
+    <circle r="20" cy="50" cx="50"></circle>
+    </svg>
+  </div>
+
+  <script src="./JS/index.js"></script>
+</body>
+</html>

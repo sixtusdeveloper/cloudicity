@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "techer.open-in-browser",
+    "ritwickdey.liveserver",
+    "joe-re.sql-language-server",
+    "teodorovillanueva.php-live-server",
+    "felixfbecker.php-pack",
+    "felixfbecker.php-debug",
+    "small.php-ci",
+    "brapifra.phpserver",
+    "knisterpeter.vscode-github",
+    "github.vscode-pull-request-github",
+    "gitlab.gitlab-workflow"
+  ]
+}

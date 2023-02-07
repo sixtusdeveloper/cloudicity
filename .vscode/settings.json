@@ -1,0 +1,19 @@
+{
+    "open-in-browser.default": "open-in-browser.default",
+    "editor.accessibilityPageSize": 500,
+    "extensions.webWorker": true,
+    "cdnjs.maxRecentLibraries": 20,
+    "standard._legacyModuleResolve": true,
+    "standard.autoFixOnSave": true,
+    "git.confirmNoVerifyCommit": false,
+    "git.confirmForcePush": false,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.ignoreLegacyWarning": true,
+    "git.ignoreLimitWarning": true,
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 15
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="stylesheet" href="./CSS/utilities.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" cotent="Web based cloud hosting company for everyone" >
+  <title>Cloudicity | Cloud hosting About</title>
+  <script src="https://kit.fontawesome.com/7c5a9b010c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Nav -->
+  <div class="navbar">
+    <div class="container flex">
+      <h1 class="logo"><a href="index.php"><img src="./images/cloudicity-logo-1.png" class="logo-image" alt="An image of Logo"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="features.php">Features</a></li>
+          <li><a href="about.php" class="active">About</a></li>
+          <li><a href="docs.php">Docs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+ 
+  <!-- About -->
+  
+  <section class="main-me">
+    <div class="head-nav">
+      <div class="flex_inner_items">
+        <h1>About Our Cloud Hosting Services Platform!</h1>
+        <p>When talking about competition, we come first. However, our mission is not competition. We want to give you what others organisations can't give to you, We offer anything we believe can serve human purpose even the world at large.
+          We respect the level of Technology and we're consistently working on bring the world to a more digitalized planet.
+        </p>
+        
+        <button class="btn_primary_about" onclick="set_user_url()" >Check out for more</button>
+      </div>
+    </div> 
+  </section>
+
+  <div class="m-vert">
+    <div class="inner-flex-container">
+      <div class="main-me-text">
+        <h2 class="text-dark">Ahh! You've scrolled this far?</h2>
+        <p>We perceived what you're looking for, a cloud based Application, or a cloud hosting platform for all your businesses and personal Applications and Sites? Well, you've come to the right place where all of that can taken care of. You've got nothing to lose as we got your back. All you've been looking for is right here, engage your businesses in the most used and modern technology using our hosting platform and leave this rest for us.</p>
+        <span class="flex-children">
+          <a href="features.php" class="explore__link">
+            <button class="explore_btn_pre">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="currentColor"></path></svg>
+              <span>Launch Now</span>
+            </button>
+          </a>
+          <a href="./images/sixtus-office.JPG" class="download_software"download >
+            <button class="cssbuttons-io-button">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M1 14.5a6.496 6.496 0 0 1 3.064-5.519 8.001 8.001 0 0 1 15.872 0 6.5 6.5 0 0 1-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 0 0 2.03-8.309l-.807-.503-.12-.942a6.001 6.001 0 0 0-11.903 0l-.12.942-.805.503a4.5 4.5 0 0 0 2.029 8.309l.173.013h9.35l.173-.013zM13 12h3l-4 5-4-5h3V8h2v4z" fill="currentColor"></path></svg>
+              <span>Download</span>
+            </button>
+          </a>
+        </span>
+      </div>
+
+      <div class="img-wrapper">
+        <img src="./images/sixtus-office.jpg" alt="An image of developer" class="image-dev">
+        <div class="positioned-item">
+          <h2>Learn the Skills you need for your next level.</h2>
+          <p>Learning here could be the best decision you've ever make. Try and see it for yourelf. We believe Education is the key to success therefore, we've done and are doing everything possible to making Education Easy and accessible to all.</p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="inner-flex-container">
+      <div class="main-me-text">
+        <h2 class="text-dark">Enhance your skills to th most in demand skills!</h3>
+        <p>Are you a student, or an employer looking for way to enhance your skills and knowledge in the most in demand and modern technology. Great, this could be your final bus stop, we're 100% rating as one of the most sophisticated and advanced tech giant that had stand firm in provision, advancement, education and delivery. In all of this we're proud to say we've never missed, we prioritize ourselves to solving and adjusting customers complains and client reports to suit their needs.
+        </p>
+        <button class="tips-btn" onclick="redirect_url_doc()">
+            Get more tips
+            <div class="arrow-wrapper">
+              <div class="arrow"></div>
+
+            </div>
+        </button>
+      </div>
+      <div class="img-wrapper">
+        <img src="./images/developer-13.jpg" alt="An image of developer" class="image-dev">
+        <div class="positioned-item">
+          <h2>Develop yourself today for better tomorrow!</h2>
+          <p>Learning here could be the best decision you've ever make. Try and see it for yourelf. We believe Education is the key to success therefore, we've done and are doing everything possible to making Education Easy and accessible to all.</p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>  
+    </div> 
+  </div>
+
+  <section class="ideas_section">
+    <div class="flex__inner_content">
+      <div class="content_left">
+        <h2>Find ideas about hidden behind the scheme!</h2>
+        <p>Web Development has become one of the broadest Fields of services globally.
+        With it standard and clear demostration, most companies have embrace it because of it accurate behavior. 
+        Alot of services providing Companies like, Google, Amazon, Shopping mall, Social media and so on have invested 
+        heavily into Web Development and Programming at large.
+        </p>
+
+        <button class="intouch_btn" onclick="contact_form()">Get in touch</button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- main-nav -->
+  <section class="main_background">  
+    <div class="flex_element">
+      <div class="flex-1">
+        <div class="img-wrapper border-color">
+          <img src="./images/business-25.jpg" class="img" alt="An image of developers-1">
+          <div class="positioned-wrapper">
+            <button class="enroll_btn" onclick="get_url_assoc()">
+              <span class="span-mother">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+              <span class="span-mother2">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+            </button>           
+          </div>
+        </div>
+        <p>The Modern Coding system</p>
+      </div>
+
+      <div class="flex-1">
+        <div class="img-wrapper border-color">
+          <img src="./images/business-23.jpg" class="img" alt="An image of developers-2">
+          <div class="positioned-wrapper">
+              <button class="enroll_btn" onclick="get_url_assoc()">
+                <span class="span-mother">
+                    <span>E</span>
+                    <span>n</span>
+                    <span>r</span>
+                    <span>o</span>
+                    <span>l</span>
+                    <span>l</span>
+                </span>
+                <span class="span-mother2">
+                    <span>E</span>
+                    <span>n</span>
+                    <span>r</span>
+                    <span>o</span>
+                    <span>l</span>
+                    <span>l</span>
+                </span>
+              </button>             
+          </div>
+        </div>
+        <p>Never give up on coding</p>
+      </div>
+
+      <div class="flex-1">
+        <div class="img-wrapper border-color">
+          <img src="./images/business-22.jpg" class="img" alt="An image of developers-3">
+          <div class="positioned-wrapper">
+            <button class="enroll_btn" onclick="get_url_assoc()">
+              <span class="span-mother">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+              <span class="span-mother2">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <p>Build both mobile and desktop apps</p>
+      </div>
+
+      <div class="flex-1">
+        <div class="img-wrapper border-color">
+          <img src="./images/business-10.jpg" class="img" alt="An image of developers-4">
+          <div class="positioned-wrapper">
+          <button class="enroll_btn" onclick="get_url_assoc()">
+            <span class="span-mother">
+                <span>E</span>
+                <span>n</span>
+                <span>r</span>
+                <span>o</span>
+                <span>l</span>
+                <span>l</span>
+            </span>
+            <span class="span-mother2">
+                <span>E</span>
+                <span>n</span>
+                <span>r</span>
+                <span>o</span>
+                <span>l</span>
+                <span>l</span>
+            </span>
+          </button>  
+          </div>
+        </div>
+        <p>Try it today, you might be the best</p>
+      </div>
+
+      <div class="flex-1">
+        <div class="img-wrapper border-color">
+          <img src="./images/business-9.jpg" class="img" alt="An image of developers-5">
+          <div class="positioned-wrapper">
+            <button class="enroll_btn" onclick="get_url_assoc()">
+              <span class="span-mother">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+              <span class="span-mother2">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+            </button>   
+          </div>
+        </div>
+        <p>Lead yourself through to live your dream</p>
+      </div>
+
+      <div class="flex-1"> 
+        <div class="img-wrapper border-color">
+          <img src="./images/business-4.jpg" class="img alt="An image of developers-6">
+          <div class="positioned-wrapper">
+            <button class="enroll_btn" onclick="get_url_assoc()">
+              <span class="span-mother">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+              <span class="span-mother2">
+                  <span>E</span>
+                  <span>n</span>
+                  <span>r</span>
+                  <span>o</span>
+                  <span>l</span>
+                  <span>l</span>
+              </span>
+            </button>   
+          </div>
+        </div>
+        <p>Code with HTML5 & CSS3</p>
+      </div>
+
+    </div>
+    
+  </section>
+
+  <section class="testimonials-container">
+    <h2 class="testimonial-header">What People Say About Us.</h2>
+    <div class="testimonial-flex-wrapper">
+      <div class="testimonial-col-1">
+        <span class="icon-left"><i class="fas fa-quote-left testi-icon"></i></span>
+        <p class="testi-par">What a website? Honestly, this website had really changed my business for better.
+          After visiting this site for my first time, I actually thought it was thesame thing with most of the other website online, but after getting support from the support team, everything was just smooth easy.
+          Want to say a big thank you to the author/the owner or manager of this website.
+        </p>
+        <ul class="icon-star-left">
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+        </ul>
+        <img src="./images/testi-1.png" alt="An image of a testimonial" class="test-img-1 testimonial-img">
+        <h5 class="testi-name">Simon M Wilfred</h5>
+        <h6 class="country">Senior Software Engineer</h6>
+      </div>
+
+      <div class="testimonial-col-1">
+        <span class="icon-left"><i class="fas fa-quote-left testi-icon"></i></span>
+        <p class="testi-par">What a website? Honestly, this website had really changed my business for better.
+          After visiting this site for my first time, I actually thought it was thesame thing with most of the other website online, but after getting support from the support team, everything was just smooth easy.
+          Want to say a big thank you to the author/the owner or manager of this website.
+        </p>
+        <ul class="icon-star-left">
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+        </ul>
+
+        <img src="./images/testi-2.jpg" alt="An image of a testimonial" class="test-img-2 testimonial-img">
+        <h5 class="testi-name">Agade Francis Desmond</h5>
+        <h6 class="country">Senior DevOps Engineer</h6>
+      </div>
+
+      <div class="testimonial-col-1">
+        <span class="icon-left"><i class="fas fa-quote-left testi-icon"></i></span>
+        <p class="testi-par">What a website? Honestly, this website had really changed my business for better.
+          After visiting this site for my first time, I actually thought it was thesame thing with most of the other website online, but after getting support from the support team, everything was just smooth easy.
+          Want to say a big thank you to the author/the owner or manager of this website.
+        </p>
+        <ul class="icon-star-left">
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+          <li class="star-list"><i class="fas fa-star"></i></li>
+        </ul>
+
+        <img src="./images/testi-3.jpg" alt="An image of a testimonial" class="test-img-3 testimonial-img">
+        <h5 class="testi-name">Frontend AWS Architect</h5>
+        <h6 class="country">Senior AWS Solution Achitect</h6>
+      </div>
+    </div>
+  </section>
+
+  <div class="collaboration-wrapper">
+    <h3>Trusted and Collaborating with over 250k Companies globally.</h3>
+    <div class="collaboration-items">
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-1.png" class="colla-img mix-mode" alt="image of collaboration-1"></span></a>
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-2.png" class="modify-img" alt="image of collaboration-1"></span></a>
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-3.png" class="modify-img mix-mode" alt="image of collaboration-3"></span></a>
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-9.png" class="modify-img" alt="image of collaboration-3"></span></a>
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-6.png" class="modify-img" alt="image of collaboration-4"></span></a>
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-8.png" class="colla-img" alt="image of collaboration-5"></span></a>
+      <a href="#" target="_blank" class="colla-links"><span><img src="./images/collabo-7.png" class="modify-img" alt="image of collaboration-6"></span></a>
+    </div>
+  </div>
+
+  
+  <!-- Footer -->
+  <?php include_once 'footer.php'; ?>
+  
+  <script src="./JS/about.js"></script>
+</body> 
+</html>
