@@ -1778,6 +1778,9 @@ circle {
   .main-me {
     height: auto;
   }
+  .navbar {
+    background: #024e1af0;
+  }
 }
 
 /* Responsiveness */
@@ -2016,6 +2019,7 @@ circle {
 @media (max-width: 500px) {
   .navbar {
     width: 100%;
+    background: #024e1af0;
   }
 
   .navbar .flex {
