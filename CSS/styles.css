@@ -107,6 +107,11 @@ pre {
   z-index: 1000;
 }
 
+/* Navbar */
+.navbar.sticky {
+  background: #0a0a24;
+}
+
 .navbar .flex {
   justify-content: space-between;
 }
