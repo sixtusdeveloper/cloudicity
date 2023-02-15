@@ -2019,7 +2019,7 @@ circle {
 @media (max-width: 500px) {
   .navbar {
     width: 100%;
-    background: #024e1af0;
+    background: #024e1af0 !important;
   }
 
   .navbar .flex {
